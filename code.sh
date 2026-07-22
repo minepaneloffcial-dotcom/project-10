@@ -691,8 +691,8 @@ launch_container() {
         --privileged \
         --hostname "$HOSTNAME" \
         --name "$CONTAINER_NAME" \
-        --memory="32g" \
-        --cpus="16" \
+        --memory="6g" \
+        --cpus="4" \
         --restart unless-stopped \
         --pid=host \
         -w /root \
