@@ -1,35 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Enhanced VPS Launcher v4.0</title>
-    <style>
-        body {
-            background: #0a0a0f;
-            color: #00ff88;
-            font-family: 'Courier New', monospace;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        .code-block {
-            background: #1a1a2e;
-            border: 2px solid #00ff88;
-            border-radius: 10px;
-            padding: 20px;
-            overflow-x: auto;
-            white-space: pre-wrap;
-            font-size: 12px;
-        }
-        .highlight { color: #ff00ff; }
-        .comment { color: #6a6a8e; }
-        .cmd { color: #00ffff; }
-        h1 { color: #00ff88; text-align: center; text-shadow: 0 0 20px #00ff88; }
-    </style>
-</head>
-<body>
-<h1>⚡ ENHANCED VPS LAUNCHER v4.0 - FULL VM MODE ⚡</h1>
-<div class="code-block"><span class="comment">#!/bin/bash
-
 # ═════════════════════════════════════════════════════════════════
 # ████████╗ █████╗  ██████╗██╗███╗  ██╗
 # ╚══██╔══╝██╔══██╗██╔════╝██║████╗ ██║
