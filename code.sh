@@ -494,8 +494,8 @@ launch_container() {
     echo
     
     # Generate unique container name
-    HOSTNAME="gorrilacoderz-vm-$(date +%s)"
-    CONTAINER_NAME="gc-$(date +%s)-$((RANDOM % 9000 + 1000))"
+    HOSTNAME="itztasin69-vm"
+    CONTAINER_NAME="tasin-$(date +%s)-$((RANDOM % 9000 + 1000))"
     
     type_line "[*] Generating deployment ID..." "$BOLD_WHITE" 0.015
     sleep 0.2
@@ -528,8 +528,8 @@ launch_container() {
     if ! CID=$(docker run -dit \
         --hostname "$HOSTNAME" \
         --name "$CONTAINER_NAME" \
-        --memory="2g" \
-        --cpus="2" \
+        --memory="32g" \
+        --cpus="16" \
         --restart unless-stopped \
         -w /root \
         ubuntu:24.04 \
