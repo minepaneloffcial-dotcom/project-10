@@ -174,7 +174,7 @@ type_line() {
             local glitch_chars='!@#$%^&*()_+-=[]{}|;:,.<>?/~`'
             local glitch_char="${glitch_chars:$((${#glitch_chars} * RANDOM / 32768)):1}"
             printf "${RED}%s${color}" "$glitch_char"
-            sleep 0.01
+            sleep 1
             printf "\b%s" "$char"
         else
             printf "%s" "$char"
